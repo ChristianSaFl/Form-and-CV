@@ -18,7 +18,7 @@ namespace TuProyecto
             string telefono = telefonoEntry.Text;
             string dni = dniEntry.Text;
 
-            // Validar que los campos obligatorios no estén vacíos
+            
             if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(apellido) || string.IsNullOrWhiteSpace(fechaNacimiento) || string.IsNullOrWhiteSpace(correo) || string.IsNullOrWhiteSpace(telefono) || string.IsNullOrWhiteSpace(dni))
             {
                 DisplayAlert("Error", "Por favor, complete todos los campos.", "OK");
