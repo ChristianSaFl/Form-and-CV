@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuProyecto.MainPage">
+
+    <StackLayout>
+        <Label Text="Datos del Curriculum Vitae" HorizontalOptions="CenterAndExpand" FontSize="Large" Margin="0,20,0,20"/>
+
+        <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
+        <Entry Placeholder="Apellido" x:Name="apellidoEntry"/>
+        <Entry Placeholder="Fecha de Nacimiento" x:Name="fechaNacimientoEntry"/>
+        <Entry Placeholder="Correo" Keyboard="Email" x:Name="correoEntry"/>
+        <Entry Placeholder="Número de Teléfono" Keyboard="Telephone" x:Name="telefonoEntry"/>
+        <Entry Placeholder="DNI" Keyboard="Numeric" x:Name="dniEntry"/>
+
+        <Button Text="Guardar" Clicked="GuardarDatos"/>
+    </StackLayout>
+
+</ContentPage>
